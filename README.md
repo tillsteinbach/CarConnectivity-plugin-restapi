@@ -94,7 +94,7 @@ An empty path (`/`) returns the entire tree.
 
 Example:
 ```bash
-curl -u admin:secret http://localhost:40000/garage/WVWZZZAUZLW123456/status/charging/batteryStatus/currentSOC_pct
+curl -u admin:secret http://localhost:40000/garage/WVWZZZAUZLW123456/charging/connector/connection_state
 ```
 
 ### PUT — set a writable attribute
@@ -109,7 +109,7 @@ Example:
 ```bash
 curl -u admin:secret -X PUT -H "Content-Type: application/json" \
      -d '{"value": 80}' \
-     http://localhost:40000/garage/WVWZZZAUZLW123456/status/charging/chargingSettings/targetSOC_pct
+     http://localhost:40000/garage/WVWZZZAUZLW123456/charging/settings/target_level
 ```
 
 ### POST — execute a command
@@ -124,7 +124,7 @@ Example:
 ```bash
 curl -u admin:secret -X POST -H "Content-Type: application/json" \
      -d '{"value": "start"}' \
-     http://localhost:40000/garage/WVWZZZAUZLW123456/controls/climatisation
+     http://localhost:40000/garage/WVWZZZAUZLW123456/climatization/commands/start-stop
 ```
 
 ## Configuration parameters
