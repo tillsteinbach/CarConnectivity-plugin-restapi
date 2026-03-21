@@ -1,10 +1,9 @@
 # CarConnectivity Plugin for a REST API
-
-[![GitHub sourcecode](https://img.shields.io/badge/Source-GitHub-green)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/)
+[![GitHub sourcecode](https://img.shields.io/badge/Source-GitHub-green)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi)
 [![GitHub](https://img.shields.io/github/license/tillsteinbach/CarConnectivity-plugin-restapi)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/tillsteinbach/CarConnectivity-plugin-restapi)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/issues)
-
-## CarConnectivity will become the successor of [WeConnect-python](https://github.com/tillsteinbach/WeConnect-python) in 2025 with similar functionality but support for other brands beyond Volkswagen!
+[![PyPI](https://img.shields.io/pypi/v/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
+[![Downloads](https://img.shields.io/pypi/dm/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
 
 [CarConnectivity](https://github.com/tillsteinbach/CarConnectivity) is a python API to connect to various car services. This plugin provides a REST API that allows other clients to interact with CarConnectivity's object tree.
 

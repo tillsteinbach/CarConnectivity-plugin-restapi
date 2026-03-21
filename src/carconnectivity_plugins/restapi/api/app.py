@@ -103,9 +103,9 @@ class RestAPI:  # pylint: disable=too-few-public-methods
                     404,
                     content_type='application/json',
                 )
-            result = element.as_dict()
+            result = element.as_json()
             return flask.Response(
-                flask.json.dumps(result),
+                result,
                 200,
                 content_type='application/json',
             )
