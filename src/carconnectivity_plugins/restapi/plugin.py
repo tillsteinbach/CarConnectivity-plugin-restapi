@@ -11,7 +11,10 @@ from carconnectivity.errors import ConfigurationError
 from carconnectivity.util import config_remove_credentials
 from carconnectivity_plugins.base.plugin import BasePlugin
 from carconnectivity_plugins.restapi.api.app import RestAPI
-from carconnectivity_plugins.restapi._version import __version__
+try:
+    from carconnectivity_plugins.restapi._version import __version__
+except ImportError:
+    __version__ = 'unknown'
 
 if TYPE_CHECKING:
     from typing import Dict, Optional
