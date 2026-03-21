@@ -1,0 +1,16 @@
+{
+    "carConnectivity": {
+        "log_level": "debug",
+        "connectors": [],
+        "plugins": [
+            {
+                "type": "restapi",
+                "disabled": false,
+                "config": {
+                    "log_level": "debug",
+                    "port": 99999
+                }
+            }
+        ]
+    }
+}

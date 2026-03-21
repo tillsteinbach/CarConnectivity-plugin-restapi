@@ -1,0 +1,58 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "setuptools_scm>=8"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carconnectivity-plugin-restapi"
+description = "CarConnectivity plugin providing a REST API"
+dynamic = ["version"]
+requires-python = ">=3.9"
+authors = [
+    { name = "Till Steinbach" }
+]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Utilities",
+    "Topic :: System :: Monitoring",
+    "Topic :: Home Automation",
+]
+dependencies = [
+    "carconnectivity>=0.11.6",
+    "Werkzeug~=3.1.3",
+    "Flask~=3.1.2",
+]
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-mock",
+]
+
+[tool.setuptools_scm]
+write_to = "src/carconnectivity_plugins/restapi/_version.py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.pylint.format]
+max-line-length = 160
+ignore-patterns= "_version.py"
+
+[tool.bandit]
+targets = "carconnectivity_plugins"
