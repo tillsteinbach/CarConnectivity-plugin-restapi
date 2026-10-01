@@ -5,7 +5,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/tillsteinbach/CarConnectivity-plugin-restapi)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/issues)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
 [![PyPI - Python Version](https://img.shields.io/pypi/v/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
-[![Downloads](https://img.shields.io/pypi/dm/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
 [![Donate at PayPal](https://img.shields.io/badge/Donate-PayPal-2997d8)](https://www.paypal.com/donate?hosted_button_id=2BVFF5GJ9SXAJ)
 [![Sponsor at Github](https://img.shields.io/badge/Sponsor-GitHub-28a745)](https://github.com/sponsors/tillsteinbach)
 
