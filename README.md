@@ -1,9 +1,13 @@
 # CarConnectivity Plugin for a REST API
 [![GitHub sourcecode](https://img.shields.io/badge/Source-GitHub-green)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/tillsteinbach/CarConnectivity-plugin-restapi?sort=semver)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/releases)
 [![GitHub](https://img.shields.io/github/license/tillsteinbach/CarConnectivity-plugin-restapi)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/tillsteinbach/CarConnectivity-plugin-restapi)](https://github.com/tillsteinbach/CarConnectivity-plugin-restapi/issues)
-[![PyPI](https://img.shields.io/pypi/v/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
+[![PyPI - Python Version](https://img.shields.io/pypi/v/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
 [![Downloads](https://img.shields.io/pypi/dm/carconnectivity-plugin-restapi)](https://pypi.org/project/carconnectivity-plugin-restapi)
+[![Donate at PayPal](https://img.shields.io/badge/Donate-PayPal-2997d8)](https://www.paypal.com/donate?hosted_button_id=2BVFF5GJ9SXAJ)
+[![Sponsor at Github](https://img.shields.io/badge/Sponsor-GitHub-28a745)](https://github.com/sponsors/tillsteinbach)
 
 [CarConnectivity](https://github.com/tillsteinbach/CarConnectivity) is a python API to connect to various car services. This plugin provides a REST API that allows other clients to interact with CarConnectivity's object tree.
 
